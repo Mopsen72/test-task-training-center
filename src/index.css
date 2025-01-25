@@ -1,0 +1,15 @@
+* {
+    --success: #58baab;
+    --error: #fc6b58;
+    --primary: #5dceca;
+    --warning: #f6ba00;
+
+    box-sizing: border-box;
+}
+
+.whiteCard {
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 1px solid #e4e5e9;
+}

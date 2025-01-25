@@ -1,0 +1,23 @@
+.layout {
+  background-color: #f3f3f3;
+  height: 100svh;
+  width: 100vw;
+  padding: 1rem;
+
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  &__navigation {
+    flex-basis: 25%;
+
+  }
+
+  &__contentBox {
+    flex-basis: 75%;
+  }
+}

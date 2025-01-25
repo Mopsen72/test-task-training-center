@@ -1,0 +1,70 @@
+.navigationPanel {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: calc(100svh - 2rem);
+  padding: 1rem 2rem;
+
+  &__logo {
+    width: 100%;
+
+    & h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+
+  &__linkList {
+    flex-grow: 1;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+  }
+
+  &__supportBtn {
+    width: 100%;
+  }
+}
+
+.linkItem {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #7b7b7b;
+
+  &_active {
+    color: var(--success);
+  }
+
+  &__icon {
+    width: 2rem !important;
+    height: 2rem !important;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+  }
+
+  &_active &__icon {
+    color: #ffffff;
+    background-color: var(--success);
+    box-shadow: 0 0.25rem 0.25rem rgba(123, 123, 123, 0.51);
+  }
+
+
+  &__title {
+
+  }
+}
+
+.suppBtn {
+  text-transform: none !important;
+  border-radius: 0.5rem !important;
+}
