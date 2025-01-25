@@ -1,7 +1,7 @@
 function coursesListPage() {
     return (
         <>
-            <main>
+            <main className={`whiteCard`}>
                 Лист курсов
                 {/*TODO список курсов*/}
             </main>

@@ -3,6 +3,7 @@ import {createTheme, ThemeProvider} from '@mui/material/styles';
 import style from "./style.module.scss";
 import NavigationPanel from "../../widgets/navigationPanel";
 import {Outlet} from "react-router";
+import HeaderLine from "../../widgets/headerLine";
 
 const theme = createTheme({
     palette: {
@@ -39,7 +40,7 @@ function index() {
                         <Container maxWidth="lg" className={style.layout__container}>
                             <NavigationPanel className={style.layout__navigation}/>
                             <div className={style.layout__contentBox}>
-                                <div>контент</div>
+                                <HeaderLine/>
                                 <Outlet></Outlet>
                             </div>
                         </Container>

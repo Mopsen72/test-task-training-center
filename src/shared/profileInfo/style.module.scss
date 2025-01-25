@@ -1,0 +1,14 @@
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &__name {
+    font-size: 0.75rem;
+  }
+
+  &__work {
+    font-size: 0.5rem;
+    color: var(--secondary);
+  }
+}
