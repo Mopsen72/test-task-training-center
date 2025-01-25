@@ -3,14 +3,15 @@ import {createTheme, ThemeProvider} from '@mui/material/styles';
 import style from "./style.module.scss";
 import NavigationPanel from "../../widgets/navigationPanel";
 import {Outlet} from "react-router";
+import HeaderLine from "../../widgets/headerLine";
 
 const theme = createTheme({
     palette: {
-        success: {main: "#58baab"},
-        error: {main: "#fc6b58"},
-        primary: {main: "#5dceca"},
+        success: {main: "#58baab", dark: "#6eb3a7"},
+        error: {main: "#fc6b58", dark: "#e86351"},
+        primary: {main: "#5dceca", dark: "#56beba"},
         secondary: {main: "#83827b"},
-        warning: {main: "#f6ba00"}
+        warning: {main: "#f6ba00", dark: "#e3ab00"}
     },
     transitions: {
         duration: {
@@ -39,7 +40,7 @@ function index() {
                         <Container maxWidth="lg" className={style.layout__container}>
                             <NavigationPanel className={style.layout__navigation}/>
                             <div className={style.layout__contentBox}>
-                                <div>контент</div>
+                                <HeaderLine/>
                                 <Outlet></Outlet>
                             </div>
                         </Container>

@@ -1,7 +1,7 @@
 function homePage() {
     return (
         <>
-            <main>
+            <main className="whiteCard">
                 Главная страница
             </main>
         </>

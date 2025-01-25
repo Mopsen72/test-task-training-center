@@ -1,7 +1,7 @@
 function documentsPage() {
     return (
         <>
-            <main>
+            <main className="whiteCard">
                 страница документов
             </main>
         </>

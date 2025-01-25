@@ -1,7 +1,7 @@
 function settingsPage() {
     return (
         <>
-            <main>
+            <main className="whiteCard">
                 страница настроек
             </main>
         </>

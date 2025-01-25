@@ -1,9 +1,10 @@
+import CoursesList from "../../widgets/coursesList";
+
 function coursesListPage() {
     return (
         <>
-            <main>
-                Лист курсов
-                {/*TODO список курсов*/}
+            <main className={`whiteCard`}>
+                <CoursesList/>
             </main>
         </>
     )
