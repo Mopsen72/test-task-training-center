@@ -59,7 +59,7 @@ function navigationPanel(props: Props) {
                 </ul>
                 <div className={style.navigationPanel__supportBtn}>
                     <Button variant="outlined" size="small" fullWidth={true} color="secondary"
-                            className={style.suppBtn}>Техническая
+                            className="btn">Техническая
                         поддержка</Button>
                 </div>
             </aside>
